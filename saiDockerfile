@@ -1,0 +1,6 @@
+FROM centos
+WORKDIR /tmp
+RUN echo 'hai ramu' > /tmp/rahulfile
+ENV myname ramu
+COPY rajfile /tmp
+ADD demo.tar.gz /tmp
